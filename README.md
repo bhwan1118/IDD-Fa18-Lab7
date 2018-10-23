@@ -12,12 +12,13 @@
 
 **a. Link to a video of your HelloYou sketch running.**
 
+[video demo](https://youtu.be/pxTsOFqgu90)
 
 ## Part B. Web Camera
 
 **a. Compare `helloYou/server.js` and `IDD-Fa18-Lab7/pictureServer.js`. What elements had to be added or changed to enable the web camera? (Hint: It might be good to know that there is a UNIX command called `diff` that compares files.)**
 
-One addition to the pictureServer.js is this block of code allowing to take a picture:
+One addition to the pictureServer.js is this block of code addign a function to take a picture using the webapp.
 
 ``` socket.on('takePicture', function() {
     var imageName = new Date().toString().replace(/[&\/\\#,+()$~%.'":*?<>{}\s-]/g, '');
@@ -35,6 +36,8 @@ One addition to the pictureServer.js is this block of code allowing to take a pi
  ```
 
 **b. Include a video of your working video doorbell**
+
+[video demo](https://youtu.be/1wY_D3BFyk8)
 
 ## Part C. Make it your own
 
